@@ -2,12 +2,11 @@ package com.infinitevoid.dagger2tutorial
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.infinitevoid.dagger2tutorial.di.DaggerInfoComponent
 import kotlinx.android.synthetic.main.activity_main.*
 import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {
-
-    @Inject lateinit var info: Info
     @Inject lateinit var info2: Info2
 
     init {
